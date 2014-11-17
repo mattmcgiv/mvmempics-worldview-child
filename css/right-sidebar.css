@@ -12,6 +12,8 @@
 	margin-left: 10px;
 	z-index: 9999;
 	position: fixed;
+	-webkit-backface-visibility: hidden; 
+	-webkit-transform: translateZ(0);
 }
 
 #page-2 {

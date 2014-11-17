@@ -6,6 +6,11 @@
 
 @import url("../worldview/style.css");
 
+#masthead {
+	-webkit-backface-visibility: hidden; 
+	-webkit-transform: translateZ(0);
+}
+
 widget.widget_pages {
 	display: none !important;
 	visibility: hidden;
@@ -22,7 +27,7 @@ div#comments.comments-area {
 }
 
 .mvmem-album-row {
-	 position: relative;
+	 /*position: relative;*/
 }
 
 .mvmem-album-row span {
